@@ -37,7 +37,7 @@ function ClickBtn(target) {
                 discountPrice = total_price*0.2;
                 const afterDiscount = total_price-discountPrice;
                 //console.log(afterDiscount);
-                discountField.innerText = discountPrice;
+                discountField.innerText = discountPrice.toFixed(2);
                 afterDiscountTotal.innerText = afterDiscount; 
             } 
         });
