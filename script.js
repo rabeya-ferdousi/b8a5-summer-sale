@@ -27,7 +27,7 @@ function ClickBtn(target) {
         purchaseBtn.removeAttribute("disabled");
     }
 
-    if(total_price>200)
+    if(total_price>=200)
     {
         applyBtn.removeAttribute("disabled");
         couponField.removeAttribute("disabled");
