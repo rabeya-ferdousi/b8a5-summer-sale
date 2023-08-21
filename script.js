@@ -6,7 +6,7 @@ const couponField =document.getElementById("coupon");
 const afterDiscountTotal =document.getElementById("a_discount");
 const discountField = document.getElementById("d-price");
 
-function ClickBtn(target) {
+function clickBtn(target) {
     const selectedAllItem = document.getElementById("selected-items");
 
     const cardElement = target.querySelector(".card-body");
